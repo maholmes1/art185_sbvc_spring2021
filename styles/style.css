@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+	
+}
+
+header {
+	text-align: center;
+}
+
+header div h1{
+	color: gold;
+}
+
+div p {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: royalblue;
+	font-weight: bolder;
+}
+
+.backP {
+	background: url("../img/kiribati1.jpg") no-repeat center center;
+	background-size: cover;
+	height: 900px;
+	
+}
+
+.backP2 {
+	background: url("../img/kiribati2.jpg") no-repeat center center;
+	background-size: cover;
+	height: 900px;
+	
+}
+
+.backP3 {
+	background: url("../img/kiribati3.jpg") no-repeat center center;
+	background-size: cover;
+	height: 900px;
+	
+}
+
+.backP4 {
+	background: url(".../img/kiribati4.jpg") no-repeat center center;
+	background-size: cover;
+	height: 900px;
+	
+}
+
+.backP5 {
+	background: url("../img/kiribati5.jpg") no-repeat center center;
+	background-size: cover;
+	height: 900px;
+	
+}
+
+.backP6 {
+	background: url("../img/kiribati6.jpg") no-repeat center center;
+	background-size: cover;
+	height: 900px;
+	
+}
+
+header .container {
+	position: relative;
+	top: 200px;
+}
+
+
+header h1 {
+	color: #fff;
+	line-height: 100px;
+	font-size: 80px;
+	margin-top: 0;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+	
+}
+
+header p {
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+.btn {
+	color: #fff;
+	background: #000;
+	padding: 10px 40px;
+	text-decoration: none;
+	margin-top: 0;
+	transition: background .5s;
+}
+
+nav {
+	background: #000;
+	height: 80px;
+	width: 100%;
+	
+}
+
+nav ul {
+	height: 80px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+nav ul li {
+	color: #fff;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	list-style: none;
+	padding: 0 10px;
+	transition: background .5s;
+	
+}
+
+nav ul li a {
+	color: #fff;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+.btn:hover, nav ul li:hover {
+	background: #ff843e;
+	cursor: pointer;
+	transition: background .5s;
+}
+
+.main .container {
+	margin: 80px auto;
+}
+
+.main img {
+	float: left;
+	margin: 50px 80px 50px 0;
+}
+
+.jumbotron {
+	
+}
+
+.jumboP{
+	background:url("../img/Flag_of_Kiribati.svg") center center;
+	background-size: cover;
+	height: 600px;
+	
+}
+
+.jumboP .container {
+position: relative;
+	top: 220px;
+	
+	
+}
+
+.jumboP h2 {
+	color: #fff;
+	text-align:right;
+	
+} 
+
+.jumboP p {
+	color: #fff;
+	text-align:right;
+}
+
+.jumboP .btn{
+	margin: 10px 0 0;
+	float: right;
+	
+}
+
+.flex-container {
+display: flex;
+width: 1000px;
+margin: 40px auto;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.flex-container .box {
+width: 240px;
+height: 240px;
+margin: 15px;
+border: #555 thin solid;            
+}
+
+footer {
+	background: #000;
+	height: 80px;
+	padding-bottom: 50px;
+	
+}
+
+footer p {
+	color: #fff;
+	font-size: 14px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0;
+	
+}
+
+@media (max-width: 500px){
+	header h1 {
+		font-size: 50px;
+		line-height: 64px;
+	}
+	
+
+
+.main, .jumbotron {
+	padding: 0 30px;
+}
+
+.main img {
+	width: 100%;
+}
+	
+
+.box {
+box-sizing: border-box;
+margin-bottom: 20px;
+flex-basis: 25%;
+}
+
+.box img {
+width: 210px;
+height: 210px;
+
+}
+
+}
+
+
+/* CSS Document */
+
